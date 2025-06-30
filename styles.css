@@ -131,3 +131,35 @@ footer {
     line-height: 1.6;
     font-size: 1.1rem;
 }
+
+/* Services content section */
+.services-content {
+    max-width: 800px;
+    margin: 2rem;
+    padding: 1rem;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.services-content p {
+    margin-bottom: 2rem;
+}
+
+/* Service list styling */
+.service-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.service-item {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #334f28;
+}
+
+.service-item h3 {
+    margin-top: 0;
+}

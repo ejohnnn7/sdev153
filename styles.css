@@ -175,7 +175,7 @@ footer {
 }
 
 /* Contact content section */
-.content-content {
+.contact-content {
     max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;
@@ -189,7 +189,7 @@ footer {
 }
 
 /* Contact form styling */
-.content-form {
+.contact-form {
     display: flex;
     flex-direction: column;
 }

@@ -109,3 +109,25 @@ footer {
     padding: 1rem;
     margin-top: 2rem;
 }
+
+/* Page title section for sub-pages */
+.page-title {
+    background-color: #334f28;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.page-title h2 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* About content section */
+.about-content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}

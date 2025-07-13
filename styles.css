@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 20px;
+    margin: 1rem;
 }
 
 /* Body styling */
@@ -154,7 +154,7 @@ footer {
 /* Services content section */
 .services-content {
     max-width: 800px;
-    margin: 2rem;
+    margin: 1rem;
     padding: 1rem;
     text-align: center;
     line-height: 1.6;

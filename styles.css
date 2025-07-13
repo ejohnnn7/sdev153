@@ -136,8 +136,9 @@ footer {
 /* Page title section for sub-pages */
 .page-title {
     background-color: #fff;  /* white background */
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .page-title h2 {

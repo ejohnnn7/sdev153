@@ -127,10 +127,53 @@ nav a:hover {
 /* Footer styling */
 footer {
     background-color: #334f28;
-    color: #fff;
+    color: white;
+    padding: 2rem 1rem;
     text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-logo img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.footer-social {
+    margin: 1rem 0;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+.footer-social img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-links {
+    margin: 1rem 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.75rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
 }
 
 /* Page title section for sub-pages */
@@ -257,4 +300,19 @@ tbody tr:nth-child(even) {
 
 .contact-form button:hover {
     background-color: #4e753e;
+}
+
+/* Add these to style text content-blocks consistently */
+.content-block {
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+.content-block h3 {
+    margin-top: 0;
+    color: #334f28;
 }

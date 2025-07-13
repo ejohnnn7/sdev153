@@ -193,27 +193,25 @@ footer {
 
 /* FAQ content section */
 
-.content h1 {
-    margin-bottom: 30px;
-    color: #222222;
-}
-
-.faq-item {
-    max-width: 600px;
-    margin: 20px auto;
+.faq-content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
     text-align: center;
 }
 
+.faq-item {
+    margin-bottom: 2rem;
+}
+
 .faq-item h2 {
-    margin-bottom: 5px;
-    font-size: 1.2rem;
-    color: #222222;  /* replaced green with dark text */
+    margin-bottom: 0.5rem;
+    color: #222222;
 }
 
 .faq-item p {
-    margin-bottom: 20px;
-    line-height: 1.5;
     color: #333333;
+    line-height: 1.5;
 }
 
 /* Contact content section */
@@ -255,7 +253,7 @@ footer {
 .contact-form button {
     margin-top: 1.5rem;
     padding: 0.75rem;
-    background-color: #555555; /* neutral gray button */
+    background-color: #61944d; /* neutral gray button */
     color: white;
     border: none;
     border-radius: 4px;
@@ -264,5 +262,5 @@ footer {
 }
 
 .contact-form button:hover {
-    background-color: #777777; /* lighter gray on hover */
+    background-color: #4e753e; /* lighter gray on hover */
 }

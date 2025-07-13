@@ -194,13 +194,13 @@ table {
 }
 
 th, td {
-  border: 1px solid #334f28;
+  border: 1px solid #4e753e;
   padding: 0.75rem;
   text-align: left;
 }
 
 th {
-  background-color: #334f28;
+  background-color: #4e753e;
   color: white;
 }
 

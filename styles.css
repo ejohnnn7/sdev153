@@ -21,12 +21,12 @@ body {
     line-height: 1.6;
 }
 
-/* Header styling */
+/* Header styling - KEEP original green */
 header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #334f28;
+    background-color: #334f28;  /* original green */
     color: white;
     padding: 1rem;
 }
@@ -42,9 +42,9 @@ header .logo {
     margin-right: 15px;
 }
 
-/*Navigation Bar styling */
+/* Navigation Bar styling - KEEP original green */
 nav {
-    background-color: #61944d;
+    background-color: #61944d;  /* original green */
 }
 
 nav ul {
@@ -65,7 +65,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #4e753e;
+    background-color: #4e753e;  /* original darker green */
 }
 
 /* Intro text section */
@@ -83,7 +83,7 @@ nav a:hover {
 
 .intro-text p {
     font-size: 1.1rem;
-    color: #334f28;
+    color: #222222;  /* neutral dark text */
     text-align: center;
 }
 
@@ -104,7 +104,7 @@ nav a:hover {
 .content-block img {
     width: 100%;
     height: auto;
-    border: 2px solid #ccc;
+    border: 2px solid #ccc;  /* light gray border */
 }
 
 /* Outro text styling */
@@ -120,13 +120,13 @@ nav a:hover {
 }
 
 .outro-text p {
-    font-size: 1.1 rem;
-    color: #334f28;
+    font-size: 1.1rem;
+    color: #222222;
 }
 
-/* Footer styling */
+/* Footer styling - KEEP original green */
 footer {
-    background-color: #334f28;
+    background-color: #334f28;  /* original green */
     color: #fff;
     text-align: center;
     padding: 1rem;
@@ -135,7 +135,7 @@ footer {
 
 /* Page title section for sub-pages */
 .page-title {
-    background-color: #fff;
+    background-color: #fff;  /* white background */
     padding: 2rem 1rem;
     text-align: center;
 }
@@ -143,6 +143,7 @@ footer {
 .page-title h2 {
     margin: 0;
     font-size: 2rem;
+    color: #222222;
 }
 
 /* About content section */
@@ -153,6 +154,7 @@ footer {
     text-align: center;
     line-height: 1.6;
     font-size: 1.1rem;
+    color: #222222;
 }
 
 /* Services content section */
@@ -163,6 +165,7 @@ footer {
     text-align: center;
     line-height: 1.6;
     font-size: 1.1rem;
+    color: #222222;
 }
 
 .services-content p {
@@ -180,17 +183,19 @@ footer {
     padding: 1rem;
     border: 1px solid #ccc;
     border-radius: 6px;
-    background-color: #334f28;
+    background-color: #f9f9f9;
 }
 
 .service-item h3 {
     margin-top: 0;
+    color: #222222;
 }
 
 /* FAQ content section */
 
 .content h1 {
     margin-bottom: 30px;
+    color: #222222;
 }
 
 .faq-item {
@@ -202,12 +207,13 @@ footer {
 .faq-item h2 {
     margin-bottom: 5px;
     font-size: 1.2rem;
-    color: #334f28
+    color: #222222;  /* replaced green with dark text */
 }
 
 .faq-item p {
     margin-bottom: 20px;
     line-height: 1.5;
+    color: #333333;
 }
 
 /* Contact content section */
@@ -218,6 +224,7 @@ footer {
     text-align: center;
     line-height: 1.6;
     font-size: 1.1rem;
+    color: #222222;
 }
 
 .contact-content p {
@@ -234,12 +241,13 @@ footer {
     margin-top: 1rem;
     margin-bottom: 0.5rem;
     font-weight: bold;
+    color: #222222;
 }
 
 .contact-form input,
 .contact-form textarea {
     padding: 0.5rem;
-    border: 1px solid #334f28;
+    border: 1px solid #999999; /* neutral gray border */
     border-radius: 4px;
     font-size: 1rem;
 }
@@ -247,8 +255,8 @@ footer {
 .contact-form button {
     margin-top: 1.5rem;
     padding: 0.75rem;
-    background-color: #334f28;
-    color: #4e753e;
+    background-color: #555555; /* neutral gray button */
+    color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -256,5 +264,5 @@ footer {
 }
 
 .contact-form button:hover {
-    background-color: #61944d;
+    background-color: #777777; /* lighter gray on hover */
 }

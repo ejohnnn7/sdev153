@@ -187,25 +187,25 @@ footer {
 
 /* FAQ content section */
 
-.faq-content {
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 1rem;
-    text-align: center;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
 }
 
-.faq-item {
-    margin-bottom: 2rem;
+th, td {
+  border: 1px solid #334f28;
+  padding: 0.75rem;
+  text-align: left;
 }
 
-.faq-item h2 {
-    margin-bottom: 0.5rem;
-    color: #222222;
+th {
+  background-color: #334f28;
+  color: white;
 }
 
-.faq-item p {
-    color: #333333;
-    line-height: 1.5;
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
 }
 
 /* Contact content section */
